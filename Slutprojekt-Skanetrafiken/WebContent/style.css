@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.container {
+	min-height: 100vh;
+    height: 100%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	justify-content: center;
+}
+
+.search-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 400px;
+	width: 100%;
+	background-image: url("Images/trees.jpg");
+	background-position: center;
+	background-size: cover;
+	
+}
+.search-text {
+	font-size: 32px;
+	color: rgb(22, 22, 22);
+}
+.search-form {
+	margin: 20px;
+	
+}
+.search-field {
+	height: 50px;
+	width: 500px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px black;
+	outline:none;
+	padding-left: 10px;
+	font-size: 30px;
+}
+.search-btn {
+	height: 50px;
+	width: 70px;
+	margin: 5px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px black;
+	background-color: rgb(255, 255, 255);
+	outline: none;
+	position :relative; 
+	bottom: 5px;
+}
+.search-btn:hover {
+	background-color: rgb(199, 199, 199);
+}
+
+.bus-div {
+	width: 1000px;
+	justify-content: normal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 100%;
+	background-color: rgb(255, 255, 255);
+}
+
+.busTimes {
+	height: 90px;
+	width: 700px;
+	margin: 20px;
+	padding: 10px;
+	background-color: rgb(240, 240, 240);
+	border: 1px solid black;
+	border-radius: 4px;
+	box-shadow: 0px 0px 5px black;
+	text-align: center;
+	font-size: 28px;
+	
+}
+.h-100 {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.dark-mode {
+	background-color: rgb(30, 30, 30);
+}
+.light-mode {
+	background-color: rgb(241, 241, 241);
+}
+
+.radio-style {
+	color: black;
+	font-size: 20px;
+}
